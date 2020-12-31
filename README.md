@@ -67,3 +67,18 @@ person.
 
 Use `git diff --word-diff` to make `git diff` more legible (this applies any
 time you run git diff on natural language).
+
+## Windows users
+
+Windows cannot use "make" by default, so you cannot take advantage of the makefile or the cool "make watch" command above. However, a basic python script is provided to allow you to produce your resume from the commandline.
+
+- NOTE: If you want to print to pdf, you will need to follow the special windows instructions for installing weasyprint as noted here: https://weasyprint.readthedocs.io/en/latest/install.html#windows. A few notes:
+   - You should be installing markdown and weasyprint to a virtual environment, but the extra weasyprint dependencies will be installed on a global basis.
+   - If you opt not to bother installing the weasyprint dependencies, the script will still run and provide you with a html version of your beautiful resume. You can then print that using the "Microsoft print to pdf" option available in most browsers.
+
+### Instructions:
+1. Follow steps 1-3 under "Instructions" above.
+2. If you are using a virtual environment, make sure to activate it, then run the following from the command line:
+   <pre>
+   python make_resume.py path_to_my_resume.md
+   </pre>
