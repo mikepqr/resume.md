@@ -1,14 +1,3 @@
-"""
-Things I need to accomplish in this script:
-1. Use markdown and smarty to convert the markdown file to html
-2. Concatenate preamble, html.md, and postamble
-    a. This will make resume.html
-3. Use a printing mechanism to pribnt to pdf
-
-Other nice-to-haves:
-1. Use requirements.txt
-2. Update docs
-"""
 from weasyprint import HTML, CSS
 from markdown import markdown
 from sys import argv
