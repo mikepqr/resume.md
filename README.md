@@ -12,8 +12,8 @@ style it with [CSS](resume.css), output to [HTML](resume.html) and
 ## Instructions
 
  1. Get a copy of this repository by [using the
-    template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template),
-    forking, or cloning
+    template](https://github.com/mikepqr/resume.md/generate), forking, or
+    cloning
 
  2. Install the dependencies:
     <pre>
