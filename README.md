@@ -19,6 +19,9 @@ style it with [CSS](resume.css), output to [HTML](resume.html) and
     <pre>
     pip install <a href="https://python-markdown.github.io/">markdown</a> <a href="https://weasyprint.org/">weasyprint</a>
     </pre>
+    Note weasyprint has additional non-python dependencies (cairo, Pango and
+    GDK-PixBuf). See the [weasyprint documentation for
+    details](https://weasyprint.readthedocs.io/en/latest/install.html).
 
  3. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from the 
     [JSON Resume Project](https://jsonresume.org/themes/))
@@ -49,6 +52,10 @@ If you make a resume.css that you like, please submit a pull request. I'd be
 happy to collect these.
 
 ## Tips
+
+If you don't have `make` on your system (e.g. Windows) then you can replicate
+`make resume` by running `python resume.py` then `weasyprint resume.html
+resume.pdf`.
 
 Run `make watch` while you are working on your resume to rebuild it whenever
 resume.md or resume.css change (requires
