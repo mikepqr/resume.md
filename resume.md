@@ -33,7 +33,7 @@ compression.
 ### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
 
 Global movement of free coding clubs for young people.
- 
+
  - Awarded 'Teacher of the Month'
 
 ## Projects
