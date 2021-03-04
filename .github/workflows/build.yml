@@ -1,0 +1,39 @@
+name: build
+
+on:
+    workflow_dispatch:
+    pull_request:
+    push:
+        branches:
+            main
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+        fail-fast: false
+        matrix:
+            os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Install markdown
+      run: pip3 install markdown
+    - name: Make resume
+      run: python3 resume.py
+    - name: Rename output
+      if: ${{ matrix.os != 'windows-latest' }}
+      run: |
+          mv resume.pdf resume_$RUNNER_OS.pdf
+          mv resume.html resume_$RUNNER_OS.html
+    - name: Rename output (Windows)
+      if: ${{ matrix.os == 'windows-latest' }}
+      run: |
+          mv resume.pdf resume_windows.pdf
+          mv resume.html resume_windows.html
+    - name: Archive resume.html and resume.pdf
+      uses: actions/upload-artifact@v2
+      with:
+          path: |
+              *.pdf
+              *.html

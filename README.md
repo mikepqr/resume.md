@@ -2,37 +2,34 @@
 
 ![Resume](resume.png)
 
-
 Write your resume in
 [Markdown](https://raw.githubusercontent.com/mikepqr/resume.md/main/resume.md),
 style it with [CSS](resume.css), output to [HTML](resume.html) and
 [PDF](resume.pdf).
 
+## Prerequisites
 
-## Instructions
+ - Python ≥ 3.6
+ - [python-markdown](https://python-markdown.github.io/) (`pip install
+   markdown`)
+ - Optional, required for PDF output: Google Chrome or Chromium
 
- 1. Get a copy of this repository by [using the
+## Usage
+
+ 1. Download [resume.py](resume.py), [resume.md](resume.md) and
+    [resume.css](resume.css) (or make a copy of this repository by [using the
     template](https://github.com/mikepqr/resume.md/generate), forking, or
-    cloning
+    cloning).
 
- 2. Install the dependencies:
-    <pre>
-    pip install <a href="https://python-markdown.github.io/">markdown</a> <a href="https://weasyprint.org/">weasyprint</a>
-    </pre>
-    Note weasyprint has additional non-python dependencies (cairo, Pango and
-    GDK-PixBuf). See the [weasyprint documentation for
-    details](https://weasyprint.readthedocs.io/en/latest/install.html).
+ 2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
+    the [JSON Resume Project](https://jsonresume.org/themes/))
 
- 3. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from the 
-    [JSON Resume Project](https://jsonresume.org/themes/))
+ 3. Run `python3 resume.py` to build resume.html and resume.pdf.
 
- 4. Run `make resume` to build resume.html and resume.pdf. If `make` is not
-    available (e.g. Windows) run `python resume.py` then `weasyprint resume.html
-    resume.pdf` instead.
+     - Use `--no-html` or `--no-pdf` to disable HTML or PDF output.
 
-Optionally, run `make watch` while you are working on your resume to rebuild it
-whenever resume.md or resume.css change (requires
-[entr](http://eradman.com/entrproject/)).
+     - Use `--chrome-path=/path/to/chrome` if resume.py cannot find your Chrome
+       or Chromium executable.
 
 ## Customization
 
@@ -55,21 +52,3 @@ here](https://github.com/mikepqr/resume.md/blob/5d99e02bf65ff6a2a0ccd18c1a0255c2
 <code><a
 href="https://python-markdown.github.io/extensions/attr_list/">attr_list</a></code>
 in particular may by useful if you are editing the CSS.
-
-## Tips
-
-The simplest way to maintain multiple versions of your resume is to comment bits
-of text in or out based on the audience. This can be done with standard HTML
-comment syntax (e.g. `<!-- Skills: Microsoft Word -->`) but beware that
-commented out text will be included in the HTML source that you are presumably
-going to put online or share.
-
-An alternative is to keep snippets of Markdown (or CSS) in separate files, and
-collect them into a single file for each version of your resume using a
-templating tool, makefile or shell script.
-
-Use, e.g. `git tag` to record which version of the resume you sent to which
-person.
-
-Use `git diff --word-diff` to make `git diff` more legible (this applies any
-time you run git diff on natural language).
