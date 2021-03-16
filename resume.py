@@ -150,7 +150,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
         if exc.returncode == -6:
             logging.warning(
                 "Chrome died with <Signals.SIGABRT: 6> "
-                f"but you may find {prefix}.pdf was created succesfully."
+                f"but you may find {prefix}.pdf was created successfully."
             )
         else:
             raise exc
