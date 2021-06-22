@@ -197,12 +197,12 @@ if __name__ == "__main__":
 
     prefix, _ = os.path.splitext(args.file)
 
-    with open(args.file) as mdfp:
+    with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()
     html = make_html(md, prefix=prefix)
 
     if not args.no_html:
-        with open(prefix + ".html", "w") as htmlfp:
+        with open(prefix + ".html", "w", encoding="utf-8") as htmlfp:
             htmlfp.write(html)
             logging.info(f"Wrote {htmlfp.name}")
 
