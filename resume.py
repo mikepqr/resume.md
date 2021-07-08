@@ -217,7 +217,7 @@ def write_html(html: str, prefix: str = "resume") -> None:
         logging.info(f"Wrote {htmlfp.name}")
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "file",
@@ -258,10 +258,14 @@ if __name__ == "__main__":
     if sys.platform == "win32":
         write_html(html,prefix)
         write_pdf_win32(prefix, chrome=args.chrome_path)
-        sys.exit()
+    else:
+    
+        if not args.no_html:
+            write_html(html, prefix)
 
-    if not args.no_html:
-        write_html(html, prefix)
+        if not args.no_pdf:
+            write_pdf(html, prefix=prefix, chrome=args.chrome_path)
 
-    if not args.no_pdf:
-        write_pdf(html, prefix=prefix, chrome=args.chrome_path)
+
+if __name__ == "__main__":
+    main()
