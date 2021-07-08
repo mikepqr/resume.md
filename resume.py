@@ -165,6 +165,58 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
             logging.info(exc)
 
 
+def write_pdf_win32(prefix: str = "resume", chrome: str = "") -> None:
+    """
+    Write html to prefix.pdf
+
+    Sample command which can be run from PowerShell:
+    & 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe' --headless --disable-gpu --run-all-compositor-stages-before-draw 
+    --print-to-pdf-no-header --virtual-time-budget=5000 --no-margins --print-to-pdf=C:\work\code\resume.md\resume.pdf C:\work\code\resume.md\resume.html
+    """
+    chrome = chrome or guess_chrome_path()
+
+    cwd = os.getcwd()
+    input_html = os.path.join(cwd, f"{prefix}.html")
+    output_pdf = os.path.join(cwd, f"{prefix}.pdf")
+    
+    options = [
+        "--headless",
+        "--print-to-pdf-no-header",
+        "--run-all-compositor-stages-before-draw",
+        "--virtual-time-budget=5000",
+        "--no-margins",
+        "--disable-gpu", #for win32
+        f"--print-to-pdf={output_pdf}",
+        #"--enable-logging=stderr",
+        #"--log-level=2",
+    ]
+    
+    try:
+        subprocess.run(
+            [
+                chrome,
+                *options,
+                input_html,
+            ],
+            check=True,
+        )
+        logging.info(f"Wrote {prefix}.pdf")
+    except subprocess.CalledProcessError as exc:
+        if exc.returncode == -6:
+            logging.warning(
+                "Chrome died with <Signals.SIGABRT: 6> "
+                f"but you may find {prefix}.pdf was created successfully."
+            )
+        else:
+            raise exc
+
+
+def write_html(html: str, prefix: str = "resume") -> None:
+    with open(prefix + ".html", "w", encoding="utf-8") as htmlfp:
+        htmlfp.write(html)
+        logging.info(f"Wrote {htmlfp.name}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -201,10 +253,15 @@ if __name__ == "__main__":
         md = mdfp.read()
     html = make_html(md, prefix=prefix)
 
+    #input args are not respected for win32
+    #because write_pdf_win32 needs html file to be present
+    if sys.platform == "win32":
+        write_html(html,prefix)
+        write_pdf_win32(prefix, chrome=args.chrome_path)
+        sys.exit()
+
     if not args.no_html:
-        with open(prefix + ".html", "w", encoding="utf-8") as htmlfp:
-            htmlfp.write(html)
-            logging.info(f"Wrote {htmlfp.name}")
+        write_html(html, prefix)
 
     if not args.no_pdf:
         write_pdf(html, prefix=prefix, chrome=args.chrome_path)
