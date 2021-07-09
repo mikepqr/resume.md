@@ -122,9 +122,14 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     chrome = chrome or guess_chrome_path()
 
     html64 = base64.b64encode(html.encode("utf-8"))
+
+    cwd = os.getcwd()
+    output_pdf = os.path.join(cwd, f"{prefix}.pdf")
+    
     options = [
         "--headless",
         "--print-to-pdf-no-header",
+        f"--print-to-pdf={output_pdf}",
         "--enable-logging=stderr",
         "--log-level=2",
     ]
@@ -132,15 +137,11 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     if sys.platform == "win32":
         options.append("--disable-gpu")
 
-    tmpdir = tempfile.TemporaryDirectory(prefix="resume.md_")
-    options.append(f"--crash-dumps-dir={tmpdir.name}")
-    options.append(f"--user-data-dir={tmpdir.name}")
     try:
         subprocess.run(
             [
                 chrome,
                 *options,
-                f"--print-to-pdf={prefix}.pdf",
                 "data:text/html;base64," + html64.decode("utf-8"),
             ],
             check=True,
@@ -154,15 +155,6 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
             )
         else:
             raise exc
-    finally:
-        # We use this try-finally rather than TemporaryDirectory's context
-        # manager to be able to catch the exception caused by
-        # https://bugs.python.org/issue26660 on Windows
-        try:
-            shutil.rmtree(tmpdir.name)
-        except PermissionError as exc:
-            logging.warning(f"Could not delete {tmpdir.name}")
-            logging.info(exc)
 
 
 if __name__ == "__main__":
