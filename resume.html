@@ -1,15 +1,16 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Richard Hendricks</title>
+<title>Noor Octavian Anwar</title>
 <style>
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Times New Roman";
+    font: 1.1em "Calibra";
     line-height: 1.2;
     margin: 40px 0;
 }
+
 #resume {
     margin: 0 auto;
     max-width: 800px;
@@ -19,6 +20,7 @@ body {
     box-shadow: 2px 2px 4px #AAAAAA;
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
+
 h1 {
     text-transform: uppercase;
     text-align: center;
@@ -26,6 +28,7 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
 h2 {
     border-bottom: 1px solid #000000;
     text-transform: uppercase;
@@ -33,6 +36,7 @@ h2 {
     margin: 1em 0 0 0;
     padding: 0;
 }
+
 h3 {
     font-size: 100%;
     margin: 0.8em 0 0.3em 0;
@@ -40,35 +44,47 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
+
 p {
     margin: 0 0 0.5em 0;
     padding: 0;
-    }
+}
+
 ul {
     padding: 0;
     margin: 0 1.5em;
-    }
+}
+
+
 /* ul immediately after h1 = contact list */
-h1 + ul {
+
+h1+ul {
     text-align: center;
     margin: 0;
     padding: 0;
-    }
-h1 + ul > li {
+}
+
+h1+ul>li {
     display: inline;
     white-space: pre;
     list-style-type: none;
 }
-h1 + ul > li:after {
+
+h1+ul>li:after {
     content: "  \2022  ";
 }
-h1 + ul > li:last-child:after {
+
+h1+ul>li:last-child:after {
     content: "";
 }
+
+
 /* p immediately after contact list = summary */
-h1 + ul + p {
+
+h1+ul+p {
     margin: 1em 0;
 }
+
 @media print {
     body {
         font-size: 10pt;
@@ -86,17 +102,22 @@ h1 + ul + p {
     }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
-    a, a:link, a:visited, a:hover {
+    a,
+    a:link,
+    a:visited,
+    a:hover {
         color: #000000;
         text-decoration: underline;
     }
 }
+
 @page {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
     size: letter;
     margin: 0.5in 0.8in;
 }
+
 @media screen and (max-width: 800px) {
     body {
         font-size: 16pt;
@@ -113,20 +134,20 @@ h1 + ul + p {
         -webkit-box-shadow: none;
     }
 }
-
 </style>
 </head>
 <body>
 <div id="resume">
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-<h1>Richard Hendricks</h1>
+<h1>Noor Octavian Anwar</h1>
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 <ul>
-<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#99;&#104;&#97;&#114;&#100;&#46;&#104;&#101;&#110;&#100;&#114;&#105;&#107;&#115;&#64;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#105;&#99;&#104;&#97;&#114;&#100;&#46;&#104;&#101;&#110;&#100;&#114;&#105;&#107;&#115;&#64;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
-<li>(912) 555-4321</li>
-<li><a href="http://richardhendricks.example.com">richardhendricks.example.com</a></li>
-<li>San Francisco, CA</li>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#111;&#111;&#114;&#111;&#99;&#116;&#97;&#118;&#105;&#97;&#110;&#97;&#110;&#97;&#119;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#110;&#111;&#111;&#114;&#111;&#99;&#116;&#97;&#118;&#105;&#97;&#110;&#97;&#110;&#97;&#119;&#97;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li>Malang, Indonesia</li>
+<li><a href="https://alvin.vercel.app">Website</a></li>
+<li><a href="https://www.linkedin.com/in/noor-octavian-anwar-alvin">LinkedIn</a></li>
+<li><a href="https://github.com/arrokh">Github</a></li>
 </ul>
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
@@ -136,7 +157,7 @@ adaptive variants.</p>
 <h2>Experience</h2>
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-<h3><span>CEO/President, Pied Piper</span> <span>Dec 2013 &ndash; Dec 2014</span></h3>
+<h3><span>Software Engineer, Degetek Studio</span> <span>Nov 2017 - Dec 2021</span></h3>
 <p>Pied Piper is a multi-platform technology based on a proprietary universal
 compression algorithm that has consistently fielded high Weisman Scores™ that
 are not merely competitive, but approach the theoretical limit of lossless
@@ -147,30 +168,39 @@ compression.</p>
 <li>Successfully won Techcrunch Disrupt</li>
 <li>Optimized an algorithm that holds the current world record for Weisman Scores</li>
 </ul>
-<h3><span>Teacher, CoderDojo</span> <span>July 2013 &ndash; Dec 2013</span></h3>
-<p>Global movement of free coding clubs for young people.</p>
+<h3><span>Research Internship, Department of Information Science Lab.<br/>Saga University, Japan</span> <span>Apr 2018 - Mar 2019</span></h3>
 <ul>
-<li>Awarded &lsquo;Teacher of the Month&rsquo;</li>
+<li>Do research and development of web apps that integrate Blockly with support C++ and web console so users can learn C++ visually and compile the code online. </li>
+<li>Submission and acceptance of a paper at the 7th International Conference on Information and Education Technology (ICIET 2019), Aizu-Wakamatsu, Japan, by ACM Digital Library.</li>
+<li>Success develops a web app that can enhance the learning process of C++, proved by the result of validation with a score of 94.8% for group trials. </li>
+</ul>
+<h3><span>Game Programmer Internship, Agate International</span> <span>May - Aug 2017</span></h3>
+<ul>
+<li>Develop a Unity3D library that is highly customizable and has acceptable integration with the Epson EB-595Wi finger touch projector. </li>
+<li>Integrating and developing an interactive wall of the Agate Profile for Indonesia Game Prime 2017 event.</li>
+<li>Successfully delivered the product that increased the engagement and the number of visitors in the Agate booth.</li>
 </ul>
 <h2>Projects</h2>
-<h3><span>Miss Direction</span> <span>Aug 2016</span></h3>
-<p>A mapping engine that misguides you:</p>
-<ul>
-<li>Won award at AIHacks 2016</li>
-<li>Built by all women team of newbie programmers</li>
-<li>Using modern technologies such as GoogleMaps, Chrome Extension and Javascript</li>
-</ul>
+<h3><span>My Experience Learning Machine Learning</span> <span>2021 - Now</span></h3>
+<p>My Experience Learning Machine Learning is a web app that shows my learning progress and the implementation of machine learning or AI-related tasks using web technologies, such as TensorFlowJS, React, NextJS and Vercel.</p>
+<p><a href="https://my-experience-learning-machine-learning.vercel.app">Link</a> • <a href="https://github.com/arrokh/arrokh-mplml">Github</a></p>
+<h3><span>NEMU - Visual Programming Environment</span> <span>2018 - Now</span></h3>
+<p>NEMU is a Visual Programming Environment that helps students and novice programmers practice their sense and knowledge of algorithms visually. The web app was developed using ReactJS, Material-UI, Blockly, Cra16/Cake (C++ Blockly extensions), and WebConsole-PHP.</p>
+<p><a href="http://nemu-vpe.herokuapp.com">Link</a> • <a href="https://github.com/arrokh/nemu">Github</a></p>
+<h3><span>Conference Management System</span> <span>2017</span></h3>
+<p>Conference Management System for International Conference on Electrical, Electronics, and Information Engineering (ICEEIE) 2017, held by Electrical Engineering of Department, Universitas Negeri Malang</p>
+<p><a href="http://elektro.um.ac.id/iceeie/2017">Link</a></p>
 <h2>Education</h2>
-<h3><span>University of Oklahoma, BA Information Technology</span> <span>2011 &ndash; 2014</span></h3>
+<h3><span>Universitas Negeri Malang, Indonesia</span> <span>2014 - 2019</span></h3>
 <ul>
-<li>GPA 4.0</li>
-<li>DB1101 - Basic SQL</li>
-<li>CS2011 - Java Introduction</li>
+<li>Major: BA, Informatics Education (GPA: 3.43)</li>
+<li>Programming Coursework: Algorithm &amp; Data Structure, Artificial Intelligence, Web Development, Game Development, Mobile Learning, Human-Computer Interaction</li>
 </ul>
 <h2>Skills</h2>
 <ul>
-<li>Web development: HTML, CSS, JavaScript</li>
-<li>Compression: Mpeg, MP4, GIF</li>
+<li>Languages: (<em>proficient</em>) JavaScript, TypeScript, C#, Dart, HTML/CSS (<em>familiar</em>) C++, Java, SQL</li>
+<li>Technologies: (<em>proficient</em>) ReactJS, MobX/Jotai, AntDesign/ChakraUI, NextJS, NestJS, Unity3D, Flutter, GraphQL, Restful (<em>familiar</em>) TensorFlow, Bash, CI/CD</li>
+<li>Others: Firebase, Vercel, GCP, Github, Gitlab, Figma</li>
 </ul></div>
 </body>
 </html>

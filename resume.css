@@ -1,10 +1,11 @@
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Times New Roman";
+    font: 1.1em "Calibra";
     line-height: 1.2;
     margin: 40px 0;
 }
+
 #resume {
     margin: 0 auto;
     max-width: 800px;
@@ -14,6 +15,7 @@ body {
     box-shadow: 2px 2px 4px #AAAAAA;
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
+
 h1 {
     text-transform: uppercase;
     text-align: center;
@@ -21,6 +23,7 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
 h2 {
     border-bottom: 1px solid #000000;
     text-transform: uppercase;
@@ -28,6 +31,7 @@ h2 {
     margin: 1em 0 0 0;
     padding: 0;
 }
+
 h3 {
     font-size: 100%;
     margin: 0.8em 0 0.3em 0;
@@ -35,35 +39,47 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
+
 p {
     margin: 0 0 0.5em 0;
     padding: 0;
-    }
+}
+
 ul {
     padding: 0;
     margin: 0 1.5em;
-    }
+}
+
+
 /* ul immediately after h1 = contact list */
-h1 + ul {
+
+h1+ul {
     text-align: center;
     margin: 0;
     padding: 0;
-    }
-h1 + ul > li {
+}
+
+h1+ul>li {
     display: inline;
     white-space: pre;
     list-style-type: none;
 }
-h1 + ul > li:after {
+
+h1+ul>li:after {
     content: "  \2022  ";
 }
-h1 + ul > li:last-child:after {
+
+h1+ul>li:last-child:after {
     content: "";
 }
+
+
 /* p immediately after contact list = summary */
-h1 + ul + p {
+
+h1+ul+p {
     margin: 1em 0;
 }
+
 @media print {
     body {
         font-size: 10pt;
@@ -81,17 +97,22 @@ h1 + ul + p {
     }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
-    a, a:link, a:visited, a:hover {
+    a,
+    a:link,
+    a:visited,
+    a:hover {
         color: #000000;
         text-decoration: underline;
     }
 }
+
 @page {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
     size: letter;
     margin: 0.5in 0.8in;
 }
+
 @media screen and (max-width: 800px) {
     body {
         font-size: 16pt;
