@@ -11,11 +11,22 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.
+I am a Software Engineer with 4-years of professional experience who loves to experiment with crafting tech-based solutions and teaching others my learning process. Currently, I am maintaining NEMU, a visual programming environment web-based, to assist people in learning fundamental programming concepts. Outside my work, I participate in various events held by the university, government institution, and tech community to present talks and workshops on software development and startups topics.
 
-## Experience
+## Skills
+
+ - Languages: (*proficient*) JavaScript, TypeScript, C#, Dart (*familiar*) C++, Java, SQL
+ - Technologies: (*proficient*) ReactJS, MobX/Jotai, AntDesign/ChakraUI, NextJS, NestJS, Unity3D, Flutter, GraphQL, REST (*familiar*) TensorFlow, Bash, CI/CD, TDD/Unit Test
+ - Others: Firebase, Vercel, GCP, GIT, Figma
+
+## Education
+
+### <span>Universitas Negeri Malang, Indonesia</span> <span>2014 - 2019</span>
+
+  - Major: BA, Informatics Education (GPA: 3.43)
+  - Programming Coursework: Algorithm & Data Structure, Artificial Intelligence, Web Development, Game Development, Mobile Learning, Human-Computer Interaction
+
+## Experiences
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
@@ -31,7 +42,7 @@ compression.
  - Successfully won Techcrunch Disrupt
  - Optimized an algorithm that holds the current world record for Weisman Scores
 
-### <span>Research Internship, Department of Information Science Lab.<br/>Saga University, Japan</span> <span>Apr 2018 - Mar 2019</span>
+### <span>Research Internship, Department of Information Science Lab.<br/>Saga University - Japan</span> <span>Apr 2018 - Mar 2019</span>
 
 - Do research and development of web apps that integrate Blockly with support C++ and web console so users can learn C++ visually and compile the code online. 
 - Submission and acceptance of a paper at the 7th International Conference on Information and Education Technology (ICIET 2019), Aizu-Wakamatsu, Japan, by ACM Digital Library.
@@ -59,19 +70,6 @@ NEMU is a Visual Programming Environment that helps students and novice programm
 
 ### <span>Conference Management System</span> <span>2017</span>
 
-Conference Management System for International Conference on Electrical, Electronics, and Information Engineering (ICEEIE) 2017, held by Electrical Engineering of Department, Universitas Negeri Malang
+Conference Management System for International Conference on Electrical, Electronics, and Information Engineering (ICEEIE) 2017, held by Electrical Engineering of Department, Universitas Negeri Malang.
 
 [Link](http://elektro.um.ac.id/iceeie/2017)
-
-## Education
-
-### <span>Universitas Negeri Malang, Indonesia</span> <span>2014 - 2019</span>
-
-  - Major: BA, Informatics Education (GPA: 3.43)
-  - Programming Coursework: Algorithm & Data Structure, Artificial Intelligence, Web Development, Game Development, Mobile Learning, Human-Computer Interaction
-
-## Skills
-
- - Languages: (*proficient*) JavaScript, TypeScript, C#, Dart, HTML/CSS (*familiar*) C++, Java, SQL
- - Technologies: (*proficient*) ReactJS, MobX/Jotai, AntDesign/ChakraUI, NextJS, NestJS, Unity3D, Flutter, GraphQL, Restful (*familiar*) TensorFlow, Bash, CI/CD
- - Others: Firebase, Vercel, GCP, Github, Gitlab, Figma
