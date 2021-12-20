@@ -19,7 +19,7 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
+    font-size: 190%;
     margin: 0;
     padding: 0;
 }
@@ -78,6 +78,7 @@ h1+ul>li:last-child:after {
 
 h1+ul+p {
     margin: 1em 0;
+    text-align: justify;
 }
 
 @media print {
