@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'mikepqr/resume.md'
+    # if: github.repository == 'mikepqr/resume.md'
     runs-on: ${{ matrix.os }}
     strategy:
         fail-fast: false
