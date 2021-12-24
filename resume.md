@@ -1,6 +1,7 @@
 # Noor Octavian Anwar
 
 - <nooroctaviananwar@gmail.com>
+- +62 8180 3894 993
 - Malang, Indonesia
 - [Website](https://alvin.vercel.app)
 - [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
@@ -23,7 +24,6 @@ I am a Software Engineer with 4-years of professional experience who loves to ex
 ## Experiences
 
 ### <span>Software Engineer, Degetek Studio</span> <span>Nov 2017 - Dec 2021</span>
-
 
 Degetek Studio is a software company that focuses on delivering tech-based solutions for education and business. 
 
