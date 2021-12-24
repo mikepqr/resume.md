@@ -1,6 +1,6 @@
 # Noor Octavian Anwar
 
-- <nooroctaviananawar@gmail.com>
+- <nooroctaviananwar@gmail.com>
 - Malang, Indonesia
 - [Website](https://alvin.vercel.app)
 - [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
