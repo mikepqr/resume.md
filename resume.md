@@ -3,7 +3,6 @@
 - <nooroctaviananwar@gmail.com>
 - +62 8180 3894 993
 - Malang, Indonesia
-- [Website](https://alvin.vercel.app)
 - [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
 - [Github](https://github.com/arrokh)
 
