@@ -1,7 +1,6 @@
 # Noor Octavian Anwar
 
 - <nooroctaviananwar@gmail.com>
-- +62 8180 3894 993
 - Malang, Indonesia
 - [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
 - [Github](https://github.com/arrokh)
