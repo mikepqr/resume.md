@@ -48,7 +48,7 @@ rule](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page/size).
 [python-markdown](https://python-markdown.github.io/) is by default a very basic
 markdown compiler, but it has a number of optional extensions that you may want
 to enable (by adding to [the list of extensions
-here](https://github.com/mikepqr/resume.md/blob/5d99e02bf65ff6a2a0ccd18c1a0255c26ec59377/resume.py#L41)).
+here](https://github.com/mikepqr/resume.md/blob/f1b0699a9b66833cb67bb59111f45a09ed3c0f7e/resume.py#L112)).
 <code><a
 href="https://python-markdown.github.io/extensions/attr_list/">attr_list</a></code>
 in particular may by useful if you are editing the CSS.
