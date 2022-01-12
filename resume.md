@@ -2,6 +2,7 @@
 
 - <nooroctaviananwar@gmail.com>
 - Malang, Indonesia
+- +62 8180 3894 993
 - [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
 - [Github](https://github.com/arrokh)
 
@@ -10,7 +11,7 @@ I am a Software Engineer with 4-years of professional experience who loves to ex
 ## Skills
 
  - Languages: (*proficient*) JavaScript, TypeScript (*familiar*) C#, Dart, C++, Java, SQL
- - Technologies: NodeJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, NestJS, Unity3D, Flutter, GraphQL, Rest, Bash, CI/CD, TDD/Unit Test
+ - Technologies: NodeJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, Webpack, Storybook, NestJS, Unity3D, Flutter, GraphQL, Rest, Bash, CI/CD, Cypress, TDD/Unit Test
  - Others: Google Cloud Platform-Firebase, Vercel, Git, Figma
 
 ## Education
@@ -23,10 +24,9 @@ I am a Software Engineer with 4-years of professional experience who loves to ex
 
 ### <span>Software Engineer, Degetek Studio</span> <span>Nov 2017 - Dec 2021</span>
 
-Degetek Studio is a software company that focuses on delivering tech-based solutions for education and business. 
 
 - Help PM decide on architecture, system design, tech stack, and timeline development for projects.
-- Collaborated with the engineering team to do research and implement an internal tech stack, so the engineering productivity and development process efficiency were increasing 2x.
+- Collaborated with the engineering team to do research and implement an internal tech stack, so the engineering productivity and DX were increasing 2x.
 - Support the CEO did research and development on tech business opportunities, so the revenue grew more than 3x YoY at the end of 2021.
 
 ### <span>Research Internship, Department of Information Science Lab.<br/>Saga University - Japan</span> <span>Apr 2018 - Mar 2019</span>
@@ -51,7 +51,7 @@ A web app that shows my learning progress and the implementation of machine lear
 
 ### <span>NEMU</span> <span>2018 - Now</span>
 
-NEMU is a Visual Programming Environment that helps novice programmers practice their sense and knowledge of algorithms. The web app was developed using React, Material-UI, Blockly, Cra16/Cake, and WebConsole-PHP.
+NEMU is a Visual Programming Environment that helps novice programmers practice their sense and knowledge of algorithms visually. The web app was developed using React, Material-UI, Blockly, Cra16/Cake (Blockly extension for C++), and WebConsole-PHP.
 
 <!-- [Link](http://nemu-vpe.herokuapp.com) • [Github](https://github.com/arrokh/nemu) -->
 [Link](https://nemu-domjudge.herokuapp.com/) • [Github](https://github.com/arrokh/nemu)
@@ -71,3 +71,35 @@ Website to help users book tickets for the Kemiren Tourism Village. The site als
 Tech stack:  React/NextJS, ChakraUI, GCP-App Engine, Firebase-Storage, and Postgresql
 
 [Link](http://kemiren.vercel.app/)
+
+## Activities
+
+### <span>Speaker - EXPO & EXPOSE ICT East Java Vocational High School</span> <span>2021</span>
+
+Invited as a speaker by East Java Education Office, to talk about the tech industry, especially in the game industry, and the urgent tech talent development of it.
+
+### <span>Jury - National IT Competition<br/>Electrical Engineering Dep. Universitas Negeri Malang</span> <span>2020 & 2021</span>
+
+Jury in National IT Competition held by Electrical Engineering Department, Universitas Negeri Malang for App Development category.
+
+### <span>Mentor - SEAMEO AR Competition<br/>Senior High School 1 Singosari</span> <span>2017-2018</span>
+
+Mentored 12 students, divided into 4 groups to join the AR Competition held by Southeast Asian Ministers of Education Organization (SEAMEO) to compete with all the students in the region. All the groups pass as the finalist, and one of the groups becomes the 2nd winner.
+
+### <span>Teaching Assistant - Game Programming<br/>Electrical Engineering Dept. Universitas Negeri Malang</span> <span>2018</span>
+
+Teach fundamental game programming using C# in Unity3D Engine. The material taught includes OOP in C#, game programming patterns (Singleton, Finite State Machine), game design, and game development process. The projects I develop to teach are Tetris and Breakout.
+
+## Competitions
+
+### <span>Finalist Game Dev - GEMASTIK</span> <span>2017</span>
+
+Ministry of Research, Technology and Higher Education-University of Indonesia
+
+### <span>Finalist Game Dev - ENUMERATION</span> <span>2016</span>
+
+Electronic Engineering Polytechnic Institute of Surabaya
+
+### <span>Finalist Educational Game - UNITY</span> <span>2015</span>
+
+Yogyakarta State University
