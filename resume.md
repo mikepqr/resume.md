@@ -1,17 +1,17 @@
 # Noor Octavian Anwar
 
+<!-- - +62 8180 3894 993 -->
 - <nooroctaviananwar@gmail.com>
 - Malang, Indonesia
-- +62 8180 3894 993
+- [github.com/arrokh](https://github.com/arrokh)
 - [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
-- [Github](https://github.com/arrokh)
 
-I am a Software Engineer with 4-years of professional experience who loves to experiment with crafting tech-based solutions and share with others my learning process. Currently, I am maintaining NEMU, a visual programming environment web-app, to assist people in learning fundamental programming concepts. Outside my work, I participate in various events held by the university, government institution, and tech community to present talks and workshops on software development and startups topics.
+I am a Software Engineer who loves to experiment with crafting tech-based solutions and share with others my learning process. Currently, I am maintaining NEMU, a visual programming environment web-app, to assist people in learning fundamental programming concepts. Outside my work, I participate in various events held by the university, government institution, and tech community to present talks and workshops on software development and startups topics.
 
 ## Skills
 
  - Languages: (*proficient*) JavaScript, TypeScript (*familiar*) C#, Dart, C++, Java, SQL
- - Technologies: NodeJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, Webpack, Storybook, NestJS, Unity3D, Flutter, GraphQL, Rest, Bash, CI/CD, Cypress, TDD/Unit Test
+ - Technologies: NodeJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, NestJS, Unity3D, Flutter, GraphQL, Rest, Bash, CI/CD, Cypress, TDD/Unit Test
  - Others: Google Cloud Platform-Firebase, Vercel, Git, Figma
 
 ## Education
