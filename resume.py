@@ -126,10 +126,8 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
         "--print-to-pdf-no-header",
         "--enable-logging=stderr",
         "--log-level=2",
+        "--in-process-gpu",
     ]
-    # https://bugs.chromium.org/p/chromium/issues/detail?id=737678
-    if sys.platform == "win32":
-        options.append("--disable-gpu")
 
     # Ideally we'd use tempfile.TemporaryDirectory here. We can't because
     # attempts to delete the tmpdir fail on Windows because Chrome creates a
