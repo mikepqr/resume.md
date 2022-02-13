@@ -4,8 +4,6 @@ on:
     workflow_dispatch:
     pull_request:
     push:
-        branches:
-            main
 
 jobs:
   build:
@@ -21,7 +19,7 @@ jobs:
     - name: Install markdown
       run: pip3 install markdown
     - name: Make resume
-      run: python3 resume.py
+      run: python3 resume.py --debug
     - name: Rename output
       if: ${{ matrix.os != 'windows-latest' }}
       run: |
