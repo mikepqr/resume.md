@@ -89,7 +89,7 @@ def title(md: str) -> str:
     assume to be the title of the document.
     """
     for line in md.splitlines():
-        if line[0] == "#":
+        if line and line[0] == "#":
             return line.strip("#").strip()
     raise ValueError("Cannot find any lines that look like markdown headings")
 
