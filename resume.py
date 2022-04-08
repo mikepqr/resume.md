@@ -4,6 +4,7 @@ import base64
 import itertools
 import logging
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -89,9 +90,11 @@ def title(md: str) -> str:
     assume to be the title of the document.
     """
     for line in md.splitlines():
-        if line and line[0] == "#":
-            return line.strip("#").strip()
-    raise ValueError("Cannot find any lines that look like markdown headings")
+        if re.match("^#[^#]", line):  # starts with exactly one '#'
+            return line.lstrip("#").strip()
+    raise ValueError(
+        "Cannot find any lines that look like markdown h1 headings to use as the title"
+    )
 
 
 def make_html(md: str, prefix: str = "resume") -> str:
