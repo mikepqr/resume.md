@@ -35,6 +35,7 @@ CHROME_GUESSES_MACOS = (
     "/Applications/Chromium.app/Contents/MacOS/Chromium",
     "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "/Applications/Google Chrome.app/Contents/MacOS/Brave Browser",
 )
 
 # https://stackoverflow.com/a/40674915/409879
