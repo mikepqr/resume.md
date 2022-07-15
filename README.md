@@ -52,3 +52,5 @@ here](https://github.com/mikepqr/resume.md/blob/f1b0699a9b66833cb67bb59111f45a09
 <code><a
 href="https://python-markdown.github.io/extensions/attr_list/">attr_list</a></code>
 in particular may by useful if you are editing the CSS.
+[abbreviations](https://python-markdown.github.io/extensions/abbreviations/)
+extension is already enabled.
