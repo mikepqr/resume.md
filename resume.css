@@ -64,6 +64,11 @@ h1 + ul > li:last-child:after {
 h1 + ul + p {
     margin: 1em 0;
 }
+/* last p of div#resume = footer */
+div#resume p:last-child {
+    text-align: center;
+    font-style: italic;
+}
 @media print {
     body {
         font-size: 10pt;
