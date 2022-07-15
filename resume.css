@@ -65,7 +65,7 @@ h1 + ul + p {
     margin: 1em 0;
 }
 /* last p of div#resume = footer */
-div#resume p:last-child {
+div#resume > p:last-child {
     text-align: center;
     font-style: italic;
 }
