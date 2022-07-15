@@ -1,0 +1,27 @@
+image: demisto/chromium:1.0.0.31983
+
+before_script:
+  - pip install markdown
+
+test:
+  stage: test
+  script:
+  - >
+    echo "Error: no test specified" && exit 1
+  artifacts:
+    paths:
+    - test
+  except:
+  - main
+
+pages:
+  stage: deploy
+  script:
+  - python3 resume.py
+  - mv resume.html public/index.html
+  artifacts:
+    paths:
+    - public
+    - resume.pdf
+  only:
+  - main
