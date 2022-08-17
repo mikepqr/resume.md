@@ -25,36 +25,27 @@ compression algorithm that has consistently fielded high Weisman Scores™ that
 are not merely competitive, but approach the theoretical limit of lossless
 compression.
 
- - Build an algorithm for artist to detect if their music was violating
-   copyright infringement laws
- - Successfully won Techcrunch Disrupt
- - Optimized an algorithm that holds the current world record for Weisman Scores
+- Создайте алгоритм для артиста, чтобы определить, нарушает ли его музыка законы о нарушении авторских прав
+- Успешно выиграл Techcrunch Disrupt
+- Оптимизирован алгоритм, который удерживает текущий мировой рекорд по шкале Вейсмана.
 
-### <span>Teacher, CoderDojo</span> <span>July 2013 -- Dec 2013</span>
+## Проекты
 
-Global movement of free coding clubs for young people.
+### Pegas Touristik Aug 2016
 
- - Awarded 'Teacher of the Month'
+Картографический движок, который вводит вас в заблуждение: 
 
-## Projects
+- Выиграл награду на AIHacks 2016 
+- Использование современных технологий, таких как GoogleMaps, Chrome Extension и Javascript
 
-### <span>Miss Direction</span> <span>Aug 2016</span>
+## Образование
 
-A mapping engine that misguides you:
-
-   - Won award at AIHacks 2016
-   - Built by all women team of newbie programmers
-   - Using modern technologies such as GoogleMaps, Chrome Extension and Javascript
-
-## Education
-
-### <span>University of Oklahoma, BA Information Technology</span> <span>2011 -- 2014</span>
+### University of Oklahoma, BA Information Technology 2011 -- 2014
 
   - GPA 4.0
   - DB1101 - Basic SQL
   - CS2011 - Java Introduction
 
-## Skills
+## Навыки
 
  - Web development: HTML, CSS, JavaScript
- - Compression: Mpeg, MP4, GIF
