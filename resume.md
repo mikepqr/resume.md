@@ -1,18 +1,17 @@
 # Noor Octavian Anwar
 
-<!-- - +62 8180 3894 993 -->
 - <nooroctaviananwar@gmail.com>
-- Malang, Indonesia
+- Indonesia
 - [github.com/arrokh](https://github.com/arrokh)
 - [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
 
-I am a Software Engineer who loves to experiment with crafting tech-based solutions and share with others my learning process. Currently, I am maintaining NEMU, a visual programming environment web-app, to assist people in learning fundamental programming concepts. Outside my work, I participate in various events held by the university, government institution, and tech community to present talks and workshops on software development and startups topics.
+I am a Software Engineer (Fullstack) who loves to experiment with crafting tech-based solutions and share with others my learning process. Currently, I am maintaining NEMU, a visual programming environment web-app, to assist people in learning fundamental programming concepts. Outside my work, I participate in various events held by the university, government institution, and tech community to present talks and workshops on software development and startups topics.
 
 ## Skills
 
- - Languages: (*proficient*) JavaScript, TypeScript (*familiar*) C#, Dart, C++, Java, SQL
- - Technologies: NodeJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, NestJS, Unity3D, Flutter, GraphQL, Rest, Bash, CI/CD, Cypress, TDD/Unit Test
- - Others: Google Cloud Platform-Firebase, Vercel, Git, Figma
+ - Languages: (*proficient*) Java, JavaScript, TypeScript, Dart, C# (*familiar*) C++, SQL
+ - Technologies: Java Spring, NodeJS/NestJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, Unity3D, Flutter, GraphQL, REST, RabbitMQ, AWS-SQS, TDD/Unit Test, Bash, CI/CD
+ - Others: Google Cloud Platform-Firebase, AWS, Vercel, Git, Datadog, Figma
 
 ## Education
 
@@ -22,16 +21,23 @@ I am a Software Engineer who loves to experiment with crafting tech-based soluti
 
 ## Experiences
 
-### <span>Software Engineer, Degetek Studio</span> <span>Nov 2017 - Dec 2021</span>
+### <span>Software Development Engineer 2, Sayurbox</span> <span>Feb 2022 - Now</span>
 
+Indonesia’s fastest-growing e-Grocery platform with full integration from farm to end consumer. I led a team in developing and delivering several end-to-end products within the timeline and coordinate with PM and stakeholders.
+
+- Designed and built Loyalty Tiering Program (Sayurpanen) with rewards integrate into vouchers, convenience fees, CS priority, etc, using AWS-SQS, Redis, and Java Spring
+- Enhancing refunds with cash options that help increase in app's ease to complain score from 4,1 to 4,4, and reduce CS complaints for a manual refund by 90%, using RabbitMQ, Redis, Java Spring, and Svelte.
+- Contributed on many services including but not limited to internal dashboard, payment, order, refund, CRM integration, and loyalty program.
+
+### <span>Software Engineer, Degetek Studio</span> <span>Nov 2017 - Dec 2021</span>
 
 - Help PM decide on architecture, system design, tech stack, and timeline development for projects.
 - Collaborated with the engineering team to do research and implement an internal tech stack, so the engineering productivity and DX were increasing 2x.
 - Support the CEO did research and development on tech business opportunities, so the revenue grew more than 3x YoY at the end of 2021.
 
-### <span>Research Internship, Department of Information Science Lab.<br/>Saga University - Japan</span> <span>Apr 2018 - Mar 2019</span>
+### <span>Research Internship, Saga University - Japan</span> <span>Apr 2018 - Mar 2019</span>
 
-- Do research and development of web apps that integrate Blockly with support C++ and web console so users can learn C++ visually and compile the code online. 
+- Do research and development of web apps that integrate Blockly with support C++ and web console so users can learn C++ visually and compile the code online under Department of Information Science Lab.
 - Submission and acceptance of a paper at the 7th International Conference on Information and Education Technology (ICIET 2019), Aizu-Wakamatsu, Japan, by ACM Digital Library.
 - Success develops a web app that can enhance the learning process of C++, proved by the result of validation with a score of 94.8% for group trials. 
 
@@ -40,6 +46,12 @@ I am a Software Engineer who loves to experiment with crafting tech-based soluti
 - Develop a Unity3D library that is highly customizable and has acceptable integration with the Epson EB-595Wi finger touch projector. 
 - Integrating and developing an interactive wall of the Agate Profile for Indonesia Game Prime 2017 event.
 - Successfully delivered the product that increased the engagement and the number of visitors in the Agate booth.
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Projects
 
@@ -53,8 +65,7 @@ A web app that shows my learning progress and the implementation of machine lear
 
 NEMU is a Visual Programming Environment that helps novice programmers practice their sense and knowledge of algorithms visually. The web app was developed using React, Material-UI, Blockly, Cra16/Cake (Blockly extension for C++), and WebConsole-PHP.
 
-<!-- [Link](http://nemu-vpe.herokuapp.com) • [Github](https://github.com/arrokh/nemu) -->
-[Link](https://nemu-domjudge.herokuapp.com/) • [Github](https://github.com/arrokh/nemu)
+[Github](https://github.com/arrokh/nemu)
 
 ### <span>SEMAR - The Fiscal Policy Game</span> <span>2021</span>
 
@@ -63,14 +74,6 @@ SEMAR is an interactive macroeconomic simulation web-app based that aims to help
 Tech stack:  React/NextJS, ChakraUI, Unity3D, GCP-App Engine, Firebase-Storage, and Postgresql
 
 [Link](https://semar-game.vercel.app/)
-
-### <span>Ticketing and Reservation System Kemiren</span> <span>2021</span>
-
-Website to help users book tickets for the Kemiren Tourism Village. The site also provides admin features for managing the destinations, schedules, and purchasing tickets that are integrated with Xendit as a payment gateway.
-
-Tech stack:  React/NextJS, ChakraUI, GCP-App Engine, Firebase-Storage, and Postgresql
-
-[Link](http://kemiren.vercel.app/)
 
 ## Activities
 
