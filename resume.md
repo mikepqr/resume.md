@@ -9,8 +9,8 @@ I am a Software Engineer (Fullstack) who loves to experiment with crafting tech-
 
 ## Skills
 
- - Languages: (*proficient*) Java, JavaScript, TypeScript, Dart, C# (*familiar*) C++, SQL
- - Technologies: Java Spring, NodeJS/NestJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, Unity3D, Flutter, GraphQL, REST, RabbitMQ, AWS-SQS, TDD/Unit Test, Bash, CI/CD
+ - Languages: (*proficient*) Java, JavaScript, TypeScript, Dart, SQL (*familiar*) C++, C#
+ - Technologies: Java Spring, NodeJS/NestJS, React/NextJS, Unity3D, Flutter, GraphQL, RESTful, Docker, Kubernetes, RabbitMQ, AWS-SQS, TDD/Unit Test, Bash, CI/CD
  - Others: Google Cloud Platform-Firebase, AWS, Vercel, Git, Datadog, Figma
 
 ## Education
