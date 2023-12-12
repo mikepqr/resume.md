@@ -128,6 +128,8 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
         "--no-sandbox",
         "--headless",
         "--print-to-pdf-no-header",
+        # Keep both versions of this option for backwards compatibility
+        # https://developer.chrome.com/docs/chromium/new-headless.
         "--no-pdf-header-footer",
         "--enable-logging=stderr",
         "--log-level=2",
