@@ -1,108 +1,79 @@
-# Noor Octavian Anwar
+# Rissa Nafilah Arifin
 
-- <nooroctaviananwar@gmail.com>
-- Indonesia
-- [github.com/arrokh](https://github.com/arrokh)
-- [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
+- <rissanafilah@gmail.com>
+- +62 822 4276 0511
+- [Linkedin](https://www.linkedin.com/in/rissa-nafilah-arifin-8793b114b/)
 
-I am a Software Engineer (Fullstack) who loves to experiment with crafting tech-based solutions and share with others my learning process. Currently, I am maintaining NEMU, a visual programming environment web-app, to assist people in learning fundamental programming concepts. Outside my work, I participate in various events held by the university, government institution, and tech community to present talks and workshops on software development and startups topics.
-
-## Skills
-
- - Languages: (*proficient*) Java, JavaScript, TypeScript, Dart, SQL (*familiar*) C++, C#
- - Technologies: Java Spring, NodeJS/NestJS, React/NextJS, Unity3D, Flutter, GraphQL, RESTful, Docker, Kubernetes, RabbitMQ, AWS-SQS, TDD/Unit Test, Bash, CI/CD
- - Others: Google Cloud Platform-Firebase, AWS, Vercel, Git, Datadog, Figma
+Experienced on Front-End Engineer and QA Testing who is working with HTML/CSS, Javascript to deliver customer experiences. Looking for an opportunity to work at a company with a positive social mission.
 
 ## Education
 
-### <span>Universitas Negeri Malang, Indonesia</span> <span>2014 - 2019</span>
+### <span>University of Merdeka, Malang Indonesia</span> <span>2013 -- 2017</span>
 
-  - Bachelor of Arts - BA, Informatics Education 
+- Bachelor of Information System
 
-## Experiences
+## Skills
 
-### <span>Software Development Engineer 2, Sayurbox</span> <span>Feb 2022 - Now</span>
+- Web development: HTML, CSS, JavaScript, SQL
+- Technologies: React/NextJS, AntDesign/ChakraUI
 
-Indonesia’s fastest-growing e-Grocery platform with full integration from farm to end consumer. I led a team in developing and delivering several end-to-end products within the timeline and coordinate with PM and stakeholders.
+## Experience
 
-- Designed and built Loyalty Tiering Program (Sayurpanen) with rewards integrate into vouchers, convenience fees, CS priority, etc, using AWS-SQS, Redis, and Java Spring
-- Enhancing refunds with cash options that help increase in app's ease to complain score from 4,1 to 4,4, and reduce CS complaints for a manual refund by 90%, using RabbitMQ, Redis, Java Spring, and Svelte.
-- Contributed on many services including but not limited to internal dashboard, payment, order, refund, CRM integration, and loyalty program.
+### <span>Software Developer, PT Huawei Tech Investment</span> <span>July 2022 -- Dec 2023</span>
+- Get requirements from PM to implement into systems and be able to maximize the user experience;
+- Developing and conduct quality assurance on post development each cycle.
 
-### <span>Software Engineer, Degetek Studio</span> <span>Nov 2017 - Dec 2021</span>
+### <span>Frontend Engineer, Degetek Studio</span> <span>July 2020 -- Dec 2021</span>
 
-- Help PM decide on architecture, system design, tech stack, and timeline development for projects.
-- Collaborated with the engineering team to do research and implement an internal tech stack, so the engineering productivity and DX were increasing 2x.
-- Support the CEO did research and development on tech business opportunities, so the revenue grew more than 3x YoY at the end of 2021.
+- Get designs from the UI/UX team to be implemented into website pages and be able to maximize the user experience;
+- Create web pages using various markup language variants;
+- Work closely with back end developers to do coding and troubleshooting.
 
-### <span>Research Internship, Saga University - Japan</span> <span>Apr 2018 - Mar 2019</span>
+### <span>Staff IT, Yayasan Dana Sosial Al Falah</span> <span>Sept 2018 -- Dec 2019</span>
 
-- Do research and development of web apps that integrate Blockly with support C++ and web console so users can learn C++ visually and compile the code online under Department of Information Science Lab.
-- Submission and acceptance of a paper at the 7th International Conference on Information and Education Technology (ICIET 2019), Aizu-Wakamatsu, Japan, by ACM Digital Library.
-- Success develops a web app that can enhance the learning process of C++, proved by the result of validation with a score of 94.8% for group trials. 
+- Hardware, Software Maintenance and Network design implementation
+- Manage and update website content
 
-### <span>Game Programmer Internship, Agate International</span> <span>May - Aug 2017</span>
+### <span>Substitute Teacher, MIN 1 Malang</span> <span>July -- Aug 2018</span>
 
-- Develop a Unity3D library that is highly customizable and has acceptable integration with the Epson EB-595Wi finger touch projector. 
-- Integrating and developing an interactive wall of the Agate Profile for Indonesia Game Prime 2017 event.
-- Successfully delivered the product that increased the engagement and the number of visitors in the Agate booth.
+- Introducing computer basics for students
+- Prepare modules for teaching
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+### <span>Hardcrew FTI</span> <span>Jan 2014 -- Dec 2016</span>
+
+- Hardware, Network Maintenance, and Software installation
+- Prepared tools and module for practicum hardware and network
 
 ## Projects
 
-### <span>My Experience Learning Machine Learning</span> <span>2021 - Now</span>
+### <span>BTS and Tower Information System</span> <span>2022</span>
+This tools will help user to reduce the amount of effort especially during rainy season and help to display single page impacted towers, and visualized maps to give more understanding to take corrent action during incident.
+<br>
+Tech stack: Javascript, CSS, SQL
 
-A web app that shows my learning progress and the implementation of machine learning or AI-related tasks using web technologies, such as TensorFlowJS, React, NextJS and Vercel.
+### <span>Ace Diary Mobile Apps and Websites</span> <span>2021</span>
 
-[Link](https://my-experience-learning-machine-learning.vercel.app) • [Github](https://github.com/arrokh/arrokh-mplml)
+Android Based Counseling Application that help Universitas Negeri Malang to facilitate Counseling Guideance for the student. Implementation design from Figma into website use ReactJs and ChakraUI Create dashboard page to present data or information and personalize website
+<br>
+Tech stack: React/NextJS, ChakraUI
 
-### <span>NEMU</span> <span>2018 - Now</span>
+### <span>Information System of Scholarship Registration and Management</span> <span>2020 - 2021</span>
 
-NEMU is a Visual Programming Environment that helps novice programmers practice their sense and knowledge of algorithms visually. The web app was developed using React, Material-UI, Blockly, Cra16/Cake (Blockly extension for C++), and WebConsole-PHP.
+Implementation design from Figma into website use ReactJs and ChakraUI, create landing page and dashboard page to present data and information. Site: [knb.kemdikbud.go.id](https://knb.kemdikbud.go.id/).
+<br>
+Tech stack: React/NextJS, ChakraUI
 
-[Github](https://github.com/arrokh/nemu)
+<br>
+<br>
+<br>
 
-### <span>SEMAR - The Fiscal Policy Game</span> <span>2021</span>
 
-SEMAR is an interactive macroeconomic simulation web-app based that aims to help students understand the fiscal policies of the Indonesian government. 
+### <span>Mini Workshop AxarSchool Content Video</span> <span>2020</span>
 
-Tech stack:  React/NextJS, ChakraUI, Unity3D, GCP-App Engine, Firebase-Storage, and Postgresql
+Provide course content on youtube how to make a simple web profile with HTML, CSS, and Javascript for AxarSchool.
 
-[Link](https://semar-game.vercel.app/)
+### <span>Information System of Cooperative</span> <span>2020</span>
 
-## Activities
-
-### <span>Speaker - EXPO & EXPOSE ICT East Java Vocational High School</span> <span>2021</span>
-
-Invited as a speaker by East Java Education Office, to talk about the tech industry, especially in the game industry, and the urgent tech talent development of it.
-
-### <span>Jury - National IT Competition<br/>Electrical Engineering Dep. Universitas Negeri Malang</span> <span>2020 & 2021</span>
-
-Jury in National IT Competition held by Electrical Engineering Department, Universitas Negeri Malang for App Development category.
-
-### <span>Mentor - SEAMEO AR Competition<br/>Senior High School 1 Singosari</span> <span>2017-2018</span>
-
-Mentored 12 students, divided into 4 groups to join the AR Competition held by Southeast Asian Ministers of Education Organization (SEAMEO) to compete with all the students in the region. All the groups pass as the finalist, and one of the groups becomes the 2nd winner.
-
-### <span>Teaching Assistant - Game Programming<br/>Electrical Engineering Dept. Universitas Negeri Malang</span> <span>2018</span>
-
-Teach fundamental game programming using C# in Unity3D Engine. The material taught includes OOP in C#, game programming patterns (Singleton, Finite State Machine), game design, and game development process. The projects I develop to teach are Tetris and Breakout.
-
-## Competitions
-
-### <span>Finalist Game Dev - GEMASTIK</span> <span>2017</span>
-
-Ministry of Research, Technology and Higher Education-University of Indonesia
-
-### <span>Finalist Game Dev - ENUMERATION</span> <span>2016</span>
-
-Electronic Engineering Polytechnic Institute of Surabaya
-
-### <span>Finalist Educational Game - UNITY</span> <span>2015</span>
-
-Yogyakarta State University
+Cooperative Management system that helps cooperative management manage the savings and loans, bills, finance, accounting and membership become easier, safer, and faster. Create landing page dashboard page to present data or information and personalize website
+<br>
+Tech stack: React/NextJS, Ant Design

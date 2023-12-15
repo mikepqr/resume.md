@@ -1,3 +1,3 @@
-python resume.py --chrome-path="C:\Portables\chrome-win\chrome-win\chrome.exe"
-mv "C:\Portables\chrome-win\chrome-win\resume.pdf" .
+python resume.py --chrome-path="C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\chrome.exe"
+mv "C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\114.0.5735.199\resume.pdf" .
 cp resume.html  docs/index.html
