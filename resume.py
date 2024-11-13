@@ -4,6 +4,7 @@ import base64
 import itertools
 import logging
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -89,9 +90,11 @@ def title(md: str) -> str:
     assume to be the title of the document.
     """
     for line in md.splitlines():
-        if line[0] == "#":
-            return line.strip("#").strip()
-    raise ValueError("Cannot find any lines that look like markdown headings")
+        if re.match("^#[^#]", line):  # starts with exactly one '#'
+            return line.lstrip("#").strip()
+    raise ValueError(
+        "Cannot find any lines that look like markdown h1 headings to use as the title"
+    )
 
 
 def make_html(md: str, prefix: str = "resume") -> str:
@@ -109,7 +112,7 @@ def make_html(md: str, prefix: str = "resume") -> str:
     return "".join(
         (
             preamble.format(title=title(md), css=css),
-            markdown.markdown(md, extensions=["smarty"]),
+            markdown.markdown(md, extensions=["smarty", "abbr"]),
             postamble,
         )
     )
@@ -120,21 +123,32 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
     Write html to prefix.pdf
     """
     chrome = chrome or guess_chrome_path()
-
     html64 = base64.b64encode(html.encode("utf-8"))
     options = [
+        "--no-sandbox",
         "--headless",
         "--print-to-pdf-no-header",
+        # Keep both versions of this option for backwards compatibility
+        # https://developer.chrome.com/docs/chromium/new-headless.
+        "--no-pdf-header-footer",
         "--enable-logging=stderr",
         "--log-level=2",
+        "--in-process-gpu",
+        "--disable-gpu",
     ]
-    # https://bugs.chromium.org/p/chromium/issues/detail?id=737678
-    if sys.platform == "win32":
-        options.append("--disable-gpu")
 
-    tmpdir = tempfile.TemporaryDirectory(prefix="resume.md_")
-    options.append(f"--crash-dumps-dir={tmpdir.name}")
-    options.append(f"--user-data-dir={tmpdir.name}")
+    # Ideally we'd use tempfile.TemporaryDirectory here. We can't because
+    # attempts to delete the tmpdir fail on Windows because Chrome creates a
+    # file the python process does not have permission to delete. See
+    # https://github.com/puppeteer/puppeteer/issues/2778,
+    # https://github.com/puppeteer/puppeteer/issues/298, and
+    # https://bugs.python.org/issue26660. If we ever drop Python 3.9 support we
+    # can use TemporaryDirectory with ignore_cleanup_errors=True as a context
+    # manager.
+    tmpdir = tempfile.mkdtemp(prefix="resume.md_")
+    options.append(f"--crash-dumps-dir={tmpdir}")
+    options.append(f"--user-data-dir={tmpdir}")
+
     try:
         subprocess.run(
             [
@@ -155,14 +169,9 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
         else:
             raise exc
     finally:
-        # We use this try-finally rather than TemporaryDirectory's context
-        # manager to be able to catch the exception caused by
-        # https://bugs.python.org/issue26660 on Windows
-        try:
-            shutil.rmtree(tmpdir.name)
-        except PermissionError as exc:
-            logging.warning(f"Could not delete {tmpdir.name}")
-            logging.info(exc)
+        shutil.rmtree(tmpdir, ignore_errors=True)
+        if os.path.isdir(tmpdir):
+            logging.debug(f"Could not delete {tmpdir}")
 
 
 if __name__ == "__main__":
@@ -188,14 +197,17 @@ if __name__ == "__main__":
         help="Path to Chrome or Chromium executable",
     )
     parser.add_argument("-q", "--quiet", action="store_true")
+    parser.add_argument("--debug", action="store_true")
     args = parser.parse_args()
 
     if args.quiet:
         logging.basicConfig(level=logging.WARN, format="%(message)s")
+    elif args.debug:
+        logging.basicConfig(level=logging.DEBUG, format="%(message)s")
     else:
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-    prefix, _ = os.path.splitext(args.file)
+    prefix, _ = os.path.splitext(os.path.abspath(args.file))
 
     with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()

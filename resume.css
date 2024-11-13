@@ -96,6 +96,11 @@ h1+ul+p {
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+    /* Do not underline abbr tags in PDF */
+    abbr {
+        text-decoration: none;
+        font-variant: none;
+    }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a,
