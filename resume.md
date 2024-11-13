@@ -1,105 +1,120 @@
-# Noor Octavian Anwar
+# Moch Noor Alfan Octavian Anwar
 
-<!-- - +62 8180 3894 993 -->
-- <nooroctaviananwar@gmail.com>
-- Malang, Indonesia
-- [github.com/arrokh](https://github.com/arrokh)
-- [LinkedIn](https://www.linkedin.com/in/noor-octavian-anwar-alvin)
+- [+62 851 7212 9020](https://wa.me/6285172129020)  
+- [mochnooralfan@gmail.com](mailto:mochnooralfan@gmail.com)  
+- [GitHub](https://github.com/alv4n96) 
+- [LinkedIn](https://www.linkedin.com/in/moch-noor-alfan)
 
-I am a Software Engineer who loves to experiment with crafting tech-based solutions and share with others my learning process. Currently, I am maintaining NEMU, a visual programming environment web-app, to assist people in learning fundamental programming concepts. Outside my work, I participate in various events held by the university, government institution, and tech community to present talks and workshops on software development and startups topics.
+---
 
-## Skills
+A dedicated Software Developer with hands-on experience in building scalable web applications, APIs, and UIs using C# with the ASP.NET Core framework. Proficient in managing databases with SQL Server and Azure, and skilled in frontend development with Blazor. Adept at collaborating with cross-functional teams, problem-solving under pressure, and maintaining clear communication with stakeholders. Eager to contribute to innovative projects and drive organizational success through technical excellence.
 
- - Languages: (*proficient*) JavaScript, TypeScript (*familiar*) C#, Dart, C++, Java, SQL
- - Technologies: NodeJS, React/NextJS, MobX/Jotai, AntDesign/ChakraUI, NestJS, Unity3D, Flutter, GraphQL, Rest, Bash, CI/CD, Cypress, TDD/Unit Test
- - Others: Google Cloud Platform-Firebase, Vercel, Git, Figma
+---
 
-## Education
+## **Core Skills**
 
-### <span>Universitas Negeri Malang, Indonesia</span> <span>2014 - 2019</span>
+- **Programming Languages**:  
+  _Proficient_: C#, SQL, TypeScript  
+  _Familiar_: VB .NET, Dart, Go, Python
 
-  - Bachelor of Arts - BA, Informatics Education 
+- **Frameworks & Technologies**:  
+  ASP.NET Core, Blazor, NestJS, Docker, Kubernetes, Azure, SQL Server, Postman, Git
 
-## Experiences
+- **Tools & Platforms**:  
+  Vercel, Supabase, GitHub, Azure DevOps
 
-### <span>Software Engineer, Degetek Studio</span> <span>Nov 2017 - Dec 2021</span>
+---
+
+## **Education**
+
+**Universitas Negeri Malang, Indonesia**  
+_Bachelor of Arts (BA) in Informatics Education_  
+**2015 - 2019** | GPA: 3.44 / 4.00
+
+---
+
+## **Professional Experience**
+
+### <span> **.NET Developer** PT Realta Chakradarma </span> <span>_May 2023 - Present_</span>
+
+- Spearheaded the development of **Project BimaSakti 11**, an end-to-end solution utilizing C# (ASP.NET Core) to streamline internal business processes.
+- Architected and optimized front-end applications using Blazor, enhancing user experience and system performance.
+- Leveraged Docker and Kubernetes for containerization, improving scalability and resource management.
+- Collaborated closely with cross-functional teams and stakeholders, translating business requirements into technical solutions.
+- Led the migration of legacy systems to modern cloud-based architectures.
+- Stayed updated with industry trends and technologies to implement best practices.
+- Participated in code refactoring and improvement initiatives to enhance application performance.
+
+### <span> **.NET Developer Trainee** PT Code Development Indonesia </span> <span>_Nov 2022 - Apr 2023_</span>
+
+- Completed an intensive bootcamp to transition into .NET development.
+- Developed API-based microservices using .NET Core for a **Mini Hotel Management** project.
+- Designed and managed relational databases, ensuring data integrity and optimal performance.
+- Created dynamic, responsive user interfaces aligned with client requirements using Blazor.
+- Implemented version control best practices and collaboration techniques via GitHub.
+- Demonstrated ability to work in an Agile environment, contributing to sprint planning and daily stand-ups.
 
 
-- Help PM decide on architecture, system design, tech stack, and timeline development for projects.
-- Collaborated with the engineering team to do research and implement an internal tech stack, so the engineering productivity and DX were increasing 2x.
-- Support the CEO did research and development on tech business opportunities, so the revenue grew more than 3x YoY at the end of 2021.
+### <span> **Technical Support Engineer** PT Hash Rekayasa Teknologi </span> <span>_Dec 2020 - Jan 2022_</span>
 
-### <span>Research Internship, Department of Information Science Lab.<br/>Saga University - Japan</span> <span>Apr 2018 - Mar 2019</span>
+- Analyzed, diagnosed, and resolved technical issues for enterprise-level web applications.
+- Delivered timely and effective support to customers.
+- Conducted root cause analysis and implemented preventative measures to reduce incident recurrence.
+- Provided training and technical guidance to junior support engineers.
+- Ensured system availability and performance.
 
-- Do research and development of web apps that integrate Blockly with support C++ and web console so users can learn C++ visually and compile the code online. 
-- Submission and acceptance of a paper at the 7th International Conference on Information and Education Technology (ICIET 2019), Aizu-Wakamatsu, Japan, by ACM Digital Library.
-- Success develops a web app that can enhance the learning process of C++, proved by the result of validation with a score of 94.8% for group trials. 
 
-### <span>Game Programmer Internship, Agate International</span> <span>May - Aug 2017</span>
+### <span> **Graphic Design (Internship)** Dinas KOMINFO Kota Batu </span> <span>_May 2018 - Aug 2018_</span>
 
-- Develop a Unity3D library that is highly customizable and has acceptable integration with the Epson EB-595Wi finger touch projector. 
-- Integrating and developing an interactive wall of the Agate Profile for Indonesia Game Prime 2017 event.
-- Successfully delivered the product that increased the engagement and the number of visitors in the Agate booth.
+- Supported administrative and marketing teams through data entry and integration.
+- Designed visual content for social media, public events, and government campaigns.
+- Assisted in budget report processing and financial documentation.
 
-## Projects
+---
 
-### <span>My Experience Learning Machine Learning</span> <span>2021 - Now</span>
+## **Projects**
 
-A web app that shows my learning progress and the implementation of machine learning or AI-related tasks using web technologies, such as TensorFlowJS, React, NextJS and Vercel.
+### **Mini Project Hotel (Web App, 2023)**  
+A collaborative project focusing on hotel management, handling business logic and integration with other modules.  
+**Tech Stack**: C#, SQL Server, Blazor WASM, Postman  
+- [Database Repository](https://github.com/piharpi/db_hotel_realta/tree/hotel)  
+- [Back-End Repository](https://github.com/alv4n96/RealtaHotelWebApi)  
+- [Front-End Repository](https://github.com/alv4n96/hotel-realta-frontend)
 
-[Link](https://my-experience-learning-machine-learning.vercel.app) • [Github](https://github.com/arrokh/arrokh-mplml)
+### **Sejarah Perang Dunia II (Mobile App, 2022)**  
+An educational mobile app that provides engaging multimedia content on World War II history.  
+**Tech Stack**: Dart, Flutter  
+- [GitHub Repository](https://github.com/alv4n96/SkripsiInot)
 
-### <span>NEMU</span> <span>2018 - Now</span>
+### **Pembelajaran Multimedia Interaktif (Game Web, 2019)**  
+An interactive web-based learning platform combining educational content with game elements.  
+**Tech Stack**: Construct 2  
+- [GitHub Repository](https://github.com/alv4n96/MediaMatovani)
 
-NEMU is a Visual Programming Environment that helps novice programmers practice their sense and knowledge of algorithms visually. The web app was developed using React, Material-UI, Blockly, Cra16/Cake (Blockly extension for C++), and WebConsole-PHP.
+---
 
-<!-- [Link](http://nemu-vpe.herokuapp.com) • [Github](https://github.com/arrokh/nemu) -->
-[Link](https://nemu-domjudge.herokuapp.com/) • [Github](https://github.com/arrokh/nemu)
+## **Certifications**
 
-### <span>SEMAR - The Fiscal Policy Game</span> <span>2021</span>
+- **Dicoding Indonesia**  
+  - Memulai Pemrograman dengan Python | Jul 2022  
+  - Belajar Dasar Visualisasi Data | Jul 2022  
+  - Belajar Dasar Pemrograman Web | May 2020
 
-SEMAR is an interactive macroeconomic simulation web-app based that aims to help students understand the fiscal policies of the Indonesian government. 
+- **DQLab**  
+  - Data Manipulation with Pandas | Jun 2022  
+  - Exploratory Data Analysis with Python | Apr 2022  
+  - Python for Data Professional Beginner | Jan 2022  
+  - Fundamental SQL Using FUNCTION and GROUP BY | Jan 2022  
+  - Data Wrangling Python | Dec 2021  
 
-Tech stack:  React/NextJS, ChakraUI, Unity3D, GCP-App Engine, Firebase-Storage, and Postgresql
+- **Skill Academy by Ruangguru**  
+  - Customer Service: Menguasai Teknik Pelayanan Terbaik | Dec 2020
 
-[Link](https://semar-game.vercel.app/)
+_For copies of certificates, visit [here](https://drive.google.com/drive/folders/18LhMDrXeaYJGbx_tRghxNbU8BbeE-_OX)._
 
-### <span>Ticketing and Reservation System Kemiren</span> <span>2021</span>
+---
 
-Website to help users book tickets for the Kemiren Tourism Village. The site also provides admin features for managing the destinations, schedules, and purchasing tickets that are integrated with Xendit as a payment gateway.
+## **Additional Information**
 
-Tech stack:  React/NextJS, ChakraUI, GCP-App Engine, Firebase-Storage, and Postgresql
-
-[Link](http://kemiren.vercel.app/)
-
-## Activities
-
-### <span>Speaker - EXPO & EXPOSE ICT East Java Vocational High School</span> <span>2021</span>
-
-Invited as a speaker by East Java Education Office, to talk about the tech industry, especially in the game industry, and the urgent tech talent development of it.
-
-### <span>Jury - National IT Competition<br/>Electrical Engineering Dep. Universitas Negeri Malang</span> <span>2020 & 2021</span>
-
-Jury in National IT Competition held by Electrical Engineering Department, Universitas Negeri Malang for App Development category.
-
-### <span>Mentor - SEAMEO AR Competition<br/>Senior High School 1 Singosari</span> <span>2017-2018</span>
-
-Mentored 12 students, divided into 4 groups to join the AR Competition held by Southeast Asian Ministers of Education Organization (SEAMEO) to compete with all the students in the region. All the groups pass as the finalist, and one of the groups becomes the 2nd winner.
-
-### <span>Teaching Assistant - Game Programming<br/>Electrical Engineering Dept. Universitas Negeri Malang</span> <span>2018</span>
-
-Teach fundamental game programming using C# in Unity3D Engine. The material taught includes OOP in C#, game programming patterns (Singleton, Finite State Machine), game design, and game development process. The projects I develop to teach are Tetris and Breakout.
-
-## Competitions
-
-### <span>Finalist Game Dev - GEMASTIK</span> <span>2017</span>
-
-Ministry of Research, Technology and Higher Education-University of Indonesia
-
-### <span>Finalist Game Dev - ENUMERATION</span> <span>2016</span>
-
-Electronic Engineering Polytechnic Institute of Surabaya
-
-### <span>Finalist Educational Game - UNITY</span> <span>2015</span>
-
-Yogyakarta State University
+- **Languages**: English (Professional), Bahasa Indonesia (Native)
+- **Hobbies & Interests**: Technology enthusiast, game development, and Data Analyst
