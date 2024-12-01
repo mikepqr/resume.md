@@ -7,29 +7,35 @@ Write your resume in
 style it with [CSS](resume.css), output to [HTML](resume.html) and
 [PDF](resume.pdf).
 
+
+## New Feature -  Add your avatar image to resume
+
+Now, with the latest feature, you can also include an avatar image in your resume!
+
+1. Place the `avatar.png` with your avatar or change `avatar_path` to your avatar path in `resume_with_avatar.py`
+2. run `resume_with_avatar.py`
+
+![image.png](assets/image.png)
+
 ## Prerequisites
 
- - Python ≥ 3.6
- - [python-markdown](https://python-markdown.github.io/) (`pip install
-   markdown`)
- - Optional, required for PDF output: Google Chrome or Chromium
+- Python ≥ 3.6
+- [python-markdown](https://python-markdown.github.io/) (`pip install markdown`)
+- Optional, required for PDF output: Google Chrome or Chromium
 
 ## Usage
 
- 1. Download [resume.py](resume.py), [resume.md](resume.md) and
-    [resume.css](resume.css) (or make a copy of this repository by [using the
-    template](https://github.com/mikepqr/resume.md/generate), forking, or
-    cloning).
+1. Download [resume.py](resume.py), [resume.md](resume.md) and
+   [resume.css](resume.css) (or make a copy of this repository by [using the
+   template](https://github.com/mikepqr/resume.md/generate), forking, or
+   cloning).
+2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
+   the [JSON Resume Project](https://jsonresume.org/themes/))
+3. Run `python3 resume.py` to build resume.html and resume.pdf.
 
- 2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
-    the [JSON Resume Project](https://jsonresume.org/themes/))
-
- 3. Run `python3 resume.py` to build resume.html and resume.pdf.
-
-     - Use `--no-html` or `--no-pdf` to disable HTML or PDF output.
-
-     - Use `--chrome-path=/path/to/chrome` if resume.py cannot find your Chrome
-       or Chromium executable.
+   - Use `--no-html` or `--no-pdf` to disable HTML or PDF output.
+   - Use `--chrome-path=/path/to/chrome` if resume.py cannot find your Chrome
+     or Chromium executable.
 
 ## Customization
 
@@ -49,8 +55,8 @@ rule](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page/size).
 markdown compiler, but it has a number of optional extensions that you may want
 to enable (by adding to [the list of extensions
 here](https://github.com/mikepqr/resume.md/blob/f1b0699a9b66833cb67bb59111f45a09ed3c0f7e/resume.py#L112)).
-<code><a
-href="https://python-markdown.github.io/extensions/attr_list/">attr_list</a></code>
+<code>[a
+href="https://python-markdown.github.io/extensions/attr_list/"](a%0Ahref=%22https://python-markdown.github.io/extensions/attr_list/%22)attr_list</a></code>
 in particular may by useful if you are editing the CSS.
 [abbreviations](https://python-markdown.github.io/extensions/abbreviations/)
 extension is already enabled.
