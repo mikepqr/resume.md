@@ -174,7 +174,7 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
             logging.debug(f"Could not delete {tmpdir}")
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "file",
@@ -196,16 +196,24 @@ if __name__ == "__main__":
         "--chrome-path",
         help="Path to Chrome or Chromium executable",
     )
-    parser.add_argument("-q", "--quiet", action="store_true")
-    parser.add_argument("--debug", action="store_true")
+    parser.set_defaults(log_level=logging.INFO)
+    log_group = parser.add_mutually_exclusive_group()
+    log_group.add_argument(
+        "-q",
+        "--quiet",
+        action="store_const",
+        dest="log_level",
+        const=logging.WARNING,
+    )
+    log_group.add_argument(
+        "--debug",
+        action="store_const",
+        dest="log_level",
+        const=logging.DEBUG,
+    )
     args = parser.parse_args()
 
-    if args.quiet:
-        logging.basicConfig(level=logging.WARN, format="%(message)s")
-    elif args.debug:
-        logging.basicConfig(level=logging.DEBUG, format="%(message)s")
-    else:
-        logging.basicConfig(level=logging.INFO, format="%(message)s")
+    logging.basicConfig(level=args.log_level, format="%(message)s")
 
     prefix, _ = os.path.splitext(os.path.abspath(args.file))
 
@@ -220,3 +228,7 @@ if __name__ == "__main__":
 
     if not args.no_pdf:
         write_pdf(html, prefix=prefix, chrome=args.chrome_path)
+
+
+if __name__ == "__main__":
+    main()
