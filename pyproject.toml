@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package-name"
+dynamic = ["version"]
+description = "Package Description"
+authors = [{ name = "Package Author", email = "package-author@example.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["resume"]
+dependencies = ["markdown==3.8"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Typing :: Typed",
+]
+
+[project.scripts]
+resume = "resume:resume.main"
+
+[project.urls]
+Repository = "https://github.com/mikepqr/resume.md"
+Issues = "https://github.com/mikepqr/resume.md/issues"
+
+[tool.setuptools_scm]
