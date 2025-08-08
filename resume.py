@@ -81,7 +81,7 @@ def guess_chrome_path() -> str:
         if os.path.exists(guess):
             logging.info("Found Chrome or Chromium at " + guess)
             return guess
-    raise ValueError("Could not find Chrome. Please set CHROME_PATH.")
+    raise ValueError("Could not find Chrome. Please set --chrome-path.")
 
 
 def title(md: str) -> str:
