@@ -15,24 +15,37 @@ jobs:
             os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
     - name: Check out repo
-      uses: actions/checkout@v2
-    - name: Install markdown
-      run: pip3 install markdown
-    - name: Make resume
-      run: python3 resume.py --debug
-    - name: Rename output
-      if: ${{ matrix.os != 'windows-latest' }}
-      run: |
-          mv resume.pdf resume_$RUNNER_OS.pdf
-          mv resume.html resume_$RUNNER_OS.html
-    - name: Rename output (Windows)
-      if: ${{ matrix.os == 'windows-latest' }}
-      run: |
-          mv resume.pdf resume_windows.pdf
-          mv resume.html resume_windows.html
-    - name: Archive resume.html and resume.pdf
-      uses: actions/upload-artifact@v2
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install markdown
+
+    - name: Make resume
+      run: python resume.py --debug
+
+    - name: Rename output (Unix)
+      if: runner.os != 'Windows'
+      shell: bash
+      run: |
+          mv resume.pdf resume_${{ runner.os }}.pdf
+          mv resume.html resume_${{ runner.os }}.html
+
+    - name: Rename output (Windows)
+      if: runner.os == 'Windows'
+      shell: pwsh
+      run: |
+          Move-Item resume.pdf resume_Windows.pdf
+          Move-Item resume.html resume_Windows.html
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+          name: resume-${{ runner.os }}
           path: |
               *.pdf
               *.html
